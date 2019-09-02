@@ -492,9 +492,9 @@ img:hover {
     letter-spacing: 0.2px;
 }
 
-.footer__social {
+/* .footer__social {
     
-}
+} */
 
 .footer__social_icon {
     display: inline-block;
@@ -523,4 +523,258 @@ img:hover {
     padding-top: 20px;
     text-align: center;
     border-top: 0.5px solid #6a6a6a;
+}
+
+
+
+/************------------ MEDIA ---------------************/
+
+@media screen and (min-width:  992px) and (max-width: 1199px) {
+    
+    .main__content {
+        max-width: 1199px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .sidebar {
+        padding-left: 40px;
+    }
+
+    .footer__container {
+        max-width: 1199px;
+    }
+
+    .footer__author_info {
+        margin-right: 100px;
+    }
+
+    .main__info {
+        margin-right: 125px;
+    }
+
+    .footer__services {
+        margin-right: 100px;
+    }
+
+    .footer__social_icon {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .header-container {
+        max-width: 1024px;
+    }
+
+    .main__content {
+        max-width: 1024px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .sidebar {
+        padding-left: 40px;
+    }
+
+    .categories__list_item {
+        margin-bottom: 12px;
+    }
+
+    .new__records_title {
+        font-size: 12px;
+    }
+
+    .new__records_date {
+        font-size: 14px;
+    }
+
+    .footer__container {
+        max-width: 1024px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main__info {
+        margin-right: 45px;
+    }
+    
+    .footer__author_info {
+        margin-right: 60px;
+    }
+
+    .footer__services {
+        margin-right: 80px;
+    }
+
+    .footer__services_title {
+        font-size: 18px;
+    }
+
+    .footer__services_nav_link {
+        font-size: 15px;
+    }
+
+    .footer__social_icon {
+        padding-top: 5px;
+        font-size: 14px;
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+    body {
+        background-color: pink;
+    }
+    
+    .header-container {
+        max-width: 767px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .main__content {
+        max-width: 767px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .nav-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav__item {
+        margin-bottom: 12px;
+    }
+
+    .logo {
+        margin-bottom: 50px;
+        margin-right: 45px;
+    }
+    .logo::after {
+        left: 58px;
+    }
+
+    .header_title {
+        font-size: 30px;
+    }
+
+    .header__subtitle {
+
+    }
+
+    .nav__item_special {
+        margin-top: 15px;
+        margin-right: 40px;
+    }
+    .sidebar {
+        padding-left: 40px;
+    }
+
+    .categories__list_item {
+        margin-bottom: 12px;
+    }
+
+    .new__records_title {
+        font-size: 12px;
+    }
+
+    .new__records_date {
+        font-size: 14px;
+    }
+
+    .footer__container {
+        max-width: 767px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main__info {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer__author_info {
+        margin-right: 0;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .footer__services {
+        text-align: center;
+        margin-right: 80px;
+    }
+
+    .footer__services_title {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .footer__services_nav_link {
+        font-size: 15px;
+    }
+
+    .footer__social_icon {
+        padding-top: 5px;
+        font-size: 14px;
+        height: 25px;
+        width: 25px;
+    }
+
+    .footer__services {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .main__info {
+        margin-bottom: 40px;
+    }
+
+    .main__info_logo {
+        margin-bottom: 18px;
+    }
+
+    .main__info_email {
+        font-size: 15px;
+    }
+
+    .main__info_number {
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+
+    .footer__services_title {
+        text-align: center;
+    }
+
+    /* .footer__address {
+        w
+    } */
+
+    .footer__social {
+        text-align: center;
+    }
+
+    .copyright {
+        max-width: 767px;
+    }
 }
